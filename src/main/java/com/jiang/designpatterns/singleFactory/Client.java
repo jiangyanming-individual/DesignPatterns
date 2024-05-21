@@ -1,6 +1,4 @@
-package com.jiang.designpatterns.abstractFactory;
-
-import com.jiang.designpatterns.abstractFactory.factory.ShapeFacroty;
+package com.jiang.designpatterns.singleFactory;
 
 public class Client {
 

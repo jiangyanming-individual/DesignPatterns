@@ -1,20 +1,23 @@
 package com.jiang.designpatterns.abstractFactory;
 
-import com.jiang.designpatterns.abstractFactory.factory.ShapeFacroty;
-
-public class Client {
-
+public class AbsatractFactoryDemo {
     /**
      * 客户端调用; 通过工厂模式去生产品
      * @param args
      */
     public static void main(String[] args) {
-        ShapeFacroty shapeFacroty = new ShapeFacroty();
-        Shape circle = shapeFacroty.getShape("circle");
+
+        //抽象工厂生成器：
+        AbstractFactory shapeFactory = FactoryProducer.getFactory("SHAPE");
+        Shape circle = shapeFactory.getShape("circle");
         circle.draw();
-        Shape rectangle = shapeFacroty.getShape("rectangle");
+        Shape rectangle = shapeFactory.getShape("rectangle");
         rectangle.draw();
-        Shape square = shapeFacroty.getShape("square");
-        square.draw();
+
+        AbstractFactory colorFactory = FactoryProducer.getFactory("COLOR");
+        Color red = colorFactory.getColor("RED");
+        red.write();
+        Color blue = colorFactory.getColor("BLUE");
+        blue.write();
     }
 }

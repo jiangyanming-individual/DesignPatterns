@@ -1,22 +1,20 @@
-package com.jiang.designpatterns.factoryPattern.factory;
+package com.jiang.designpatterns.abstractFactory.factory;
 
-import com.jiang.designpatterns.factoryPattern.AbstractFactory;
-import com.jiang.designpatterns.factoryPattern.Color;
-import com.jiang.designpatterns.factoryPattern.Shape;
-import com.jiang.designpatterns.factoryPattern.impl.Blue;
-import com.jiang.designpatterns.factoryPattern.impl.Red;
-import com.jiang.designpatterns.factoryPattern.impl.Yellow;
+import com.jiang.designpatterns.abstractFactory.AbstractFactory;
+import com.jiang.designpatterns.abstractFactory.Color;
+import com.jiang.designpatterns.abstractFactory.Shape;
+import com.jiang.designpatterns.abstractFactory.impl.Blue;
+import com.jiang.designpatterns.abstractFactory.impl.Red;
+import com.jiang.designpatterns.abstractFactory.impl.Yellow;
 
 /**
  * 继承抽象工厂
  */
 public class ColorFactory extends AbstractFactory {
-
     @Override
     public Shape getShape(String shapeType) {
         return null;
     }
-
     /**
      * 得到颜色
      * @param color
@@ -28,8 +26,9 @@ public class ColorFactory extends AbstractFactory {
             return new Red();
         }else if (color.equalsIgnoreCase("BLUE")){
             return new Blue();
-        }else {
+        }else if (color.equalsIgnoreCase("YELLOW")){
             return new Yellow();
         }
+        return null;
     }
 }

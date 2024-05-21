@@ -1,16 +1,14 @@
-package com.jiang.designpatterns.abstractFactory.factory;
+package com.jiang.designpatterns.singleFactory;
 
-import com.jiang.designpatterns.abstractFactory.AbstractFactory;
-import com.jiang.designpatterns.abstractFactory.Color;
-import com.jiang.designpatterns.abstractFactory.Shape;
-import com.jiang.designpatterns.abstractFactory.impl.Circle;
-import com.jiang.designpatterns.abstractFactory.impl.Rectangle;
-import com.jiang.designpatterns.abstractFactory.impl.Square;
+
+import com.jiang.designpatterns.singleFactory.impl.Circle;
+import com.jiang.designpatterns.singleFactory.impl.Rectangle;
+import com.jiang.designpatterns.singleFactory.impl.Square;
 
 /**
  * 继承抽象工厂
  */
-public class ShapeFacroty extends AbstractFactory {
+public class ShapeFacroty {
 
     public Shape getShape(String shapeType) {
         if (shapeType == null) return null;
@@ -21,9 +19,5 @@ public class ShapeFacroty extends AbstractFactory {
         }else {
             return new Square();
         }
-    }
-    @Override
-    public Color getColor(String color) {
-        return null;
     }
 }

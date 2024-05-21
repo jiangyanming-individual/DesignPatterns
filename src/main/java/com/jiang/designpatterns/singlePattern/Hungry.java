@@ -1,11 +1,20 @@
 package com.jiang.designpatterns.singlePattern;
 
-public class HungryDemo {
+public class Hungry {
 
+    /**
+     * 饿汉式：无论是否需要直接一把梭哈：
+     */
+    private static final Hungry HUNGRY = new Hungry();
 
-    private static final  HungryDemo instance = new HungryDemo();
+    /**
+     * 私有构造器：无法通过new的方式获得对象实例
+     */
+    private Hungry(){
 
-    public static HungryDemo getInstance(){
-        return instance;
+    }
+
+    public static Hungry getInstance(){
+        return HUNGRY;
     }
 }

@@ -1,6 +1,6 @@
-package com.jiang.designpatterns.factoryPattern.impl;
+package com.jiang.designpatterns.abstractFactory.impl;
 
-import com.jiang.designpatterns.factoryPattern.Color;
+import com.jiang.designpatterns.abstractFactory.Color;
 
 public class Yellow implements Color {
     @Override

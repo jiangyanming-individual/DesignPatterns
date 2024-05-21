@@ -1,6 +1,6 @@
-package com.jiang.designpatterns.factoryPattern.impl;
+package com.jiang.designpatterns.abstractFactory.impl;
 
-import com.jiang.designpatterns.factoryPattern.Shape;
+import com.jiang.designpatterns.abstractFactory.Shape;
 
 public class Circle implements Shape {
     @Override

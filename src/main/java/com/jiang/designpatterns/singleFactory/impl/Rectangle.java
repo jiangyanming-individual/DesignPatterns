@@ -1,6 +1,6 @@
-package com.jiang.designpatterns.abstractFactory.impl;
+package com.jiang.designpatterns.singleFactory.impl;
 
-import com.jiang.designpatterns.abstractFactory.Shape;
+import com.jiang.designpatterns.singleFactory.Shape;
 
 public class Rectangle implements Shape {
     @Override
