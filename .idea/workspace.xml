@@ -5,43 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="888d70ce-835f-4654-b8b0-6b9ec6c74b02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/MealBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/MealBuilderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/Packing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/Bottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/ChickenBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/Coke.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/ColdDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/Pepsi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/VegBurger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/builderPattern/impl/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/adaptPattern/AdvancedMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/adaptPattern/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/adaptPattern/impl/AdapterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/adaptPattern/impl/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/adaptPattern/impl/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/adaptPattern/impl/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/adaptPattern/impl/VlcPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/AbsatractFactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/AbsatractFactoryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/AbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/AbstractFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/FactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/FactoryProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/factory/ColorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/factory/ColorFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/factory/ShapeFacroty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/factory/ShapeFacroty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Blue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Blue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Red.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/abstractFactory/impl/Yellow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/ShapeFacroty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/ShapeFacroty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/impl/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/impl/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/impl/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/impl/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/impl/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singleFactory/impl/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singlePattern/Hungry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singlePattern/Hungry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singlePattern/LazyMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singlePattern/LazyMan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singlePattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/singlePattern/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AbsatractFactoryDemo.executor": "Run",
+    "Application.AdapterPatternDemo.executor": "Run",
     "Application.Client.executor": "Run",
     "Application.MealBuilderDemo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -122,7 +94,7 @@
       <recent name="com.jiang.designpatterns.factoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MealBuilderDemo">
+  <component name="RunManager" selected="Application.AdapterPatternDemo">
     <configuration name="AbsatractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.abstractFactory.AbsatractFactoryDemo" />
       <module name="DesignPatterns" />
@@ -136,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.adaptPattern.impl.AdapterPatternDemo" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.designpatterns.adaptPattern.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MealBuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.builderPattern.MealBuilderDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.designpatterns.builderPattern.impl.*" />
+          <option name="PATTERN" value="com.jiang.designpatterns.builderPattern.Packimpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdapterPatternDemo" />
         <item itemvalue="Application.MealBuilderDemo" />
         <item itemvalue="Application.AbsatractFactoryDemo" />
       </list>
@@ -173,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716189170880</updated>
       <workItem from="1716189171982" duration="8753000" />
-      <workItem from="1716258084018" duration="2453000" />
+      <workItem from="1716258084018" duration="6594000" />
     </task>
     <servers />
   </component>
