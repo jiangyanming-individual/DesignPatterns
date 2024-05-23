@@ -1,7 +1,7 @@
-package com.jiang.designpatterns.BridgePattern.impl;
+package com.jiang.designpatterns.bridgePattern.impl;
 
-import com.jiang.designpatterns.BridgePattern.DrawAPI;
-import com.jiang.designpatterns.BridgePattern.Shape;
+import com.jiang.designpatterns.bridgePattern.DrawAPI;
+import com.jiang.designpatterns.bridgePattern.Shape;
 
 public class Circle extends Shape {
     private int x,y, radius;

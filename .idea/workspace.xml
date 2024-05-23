@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="888d70ce-835f-4654-b8b0-6b9ec6c74b02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/BridgePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/DrawAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/impl/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/impl/GreenCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/impl/RedCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/composite/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/composite/Leaf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/BridgePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/bridgePattern/BridgePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/DrawAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/bridgePattern/DrawAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/bridgePattern/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/impl/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/bridgePattern/impl/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/impl/GreenCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/bridgePattern/impl/GreenCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/BridgePattern/impl/RedCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/bridgePattern/impl/RedCircle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +39,12 @@
     &quot;assignee&quot;: &quot;jiangyanming-individual&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jiangyanming-individual/dubbo-samples-spring-boot.git&quot;,
-    &quot;accountId&quot;: &quot;2aa75221-c677-4475-9a45-ec23873f27fa&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jiangyanming-individual/DesignPatterns.git",
+    "accountId": "2aa75221-c677-4475-9a45-ec23873f27fa"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -60,28 +64,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AbsatractFactoryDemo.executor": "Run",
-    "Application.AdapterPatternDemo.executor": "Run",
-    "Application.BridgePatternDemo.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.MealBuilderDemo.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkSpace/Java_workspace/dubbo-samples/1-basic/com.jiang.designPpatterns/src/main/java/com/jiang/designpatterns/singleFactory/impl",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbsatractFactoryDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AdapterPatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BridgePatternDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MealBuilderDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/Java_workspace/dubbo-samples/1-basic/com.jiang.designPpatterns/src/main/java/com/jiang/designpatterns/singleFactory/impl&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.jiang.designpatterns.singleFactory.impl" />
@@ -94,7 +98,7 @@
       <recent name="com.jiang.designpatterns.factoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BridgePatternDemo">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="AbsatractFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.abstractFactory.AbsatractFactoryDemo" />
       <module name="DesignPatterns" />
@@ -122,11 +126,24 @@
       </method>
     </configuration>
     <configuration name="BridgePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.BridgePattern.BridgePatternDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.bridgePattern.BridgePatternDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.designpatterns.BridgePattern.*" />
+          <option name="PATTERN" value="com.jiang.designpatterns.bridgePattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.composite.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.designpatterns.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.BridgePatternDemo" />
         <item itemvalue="Application.AdapterPatternDemo" />
         <item itemvalue="Application.MealBuilderDemo" />
@@ -174,7 +192,9 @@
       <updated>1716189170880</updated>
       <workItem from="1716189171982" duration="8753000" />
       <workItem from="1716258084018" duration="7685000" />
-      <workItem from="1716341129353" duration="976000" />
+      <workItem from="1716341129353" duration="8487000" />
+      <workItem from="1716450488290" duration="2000" />
+      <workItem from="1716450602366" duration="1492000" />
     </task>
     <servers />
   </component>

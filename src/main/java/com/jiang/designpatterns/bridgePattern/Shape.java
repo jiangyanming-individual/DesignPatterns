@@ -1,4 +1,4 @@
-package com.jiang.designpatterns.BridgePattern;
+package com.jiang.designpatterns.bridgePattern;
 
 public abstract class Shape {
     //传入drawAPI:

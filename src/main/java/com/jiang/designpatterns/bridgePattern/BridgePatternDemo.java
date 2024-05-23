@@ -1,8 +1,8 @@
-package com.jiang.designpatterns.BridgePattern;
+package com.jiang.designpatterns.bridgePattern;
 
-import com.jiang.designpatterns.BridgePattern.impl.Circle;
-import com.jiang.designpatterns.BridgePattern.impl.GreenCircle;
-import com.jiang.designpatterns.BridgePattern.impl.RedCircle;
+import com.jiang.designpatterns.bridgePattern.impl.Circle;
+import com.jiang.designpatterns.bridgePattern.impl.GreenCircle;
+import com.jiang.designpatterns.bridgePattern.impl.RedCircle;
 
 /**
  * 测试

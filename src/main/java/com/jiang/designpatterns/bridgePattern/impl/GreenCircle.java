@@ -1,6 +1,6 @@
-package com.jiang.designpatterns.BridgePattern.impl;
+package com.jiang.designpatterns.bridgePattern.impl;
 
-import com.jiang.designpatterns.BridgePattern.DrawAPI;
+import com.jiang.designpatterns.bridgePattern.DrawAPI;
 
 /**
  * DrawAPI实现类
