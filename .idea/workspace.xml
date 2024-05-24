@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="888d70ce-835f-4654-b8b0-6b9ec6c74b02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/LoggerConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/CommandPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/impl/BuyStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/impl/SellStock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,8 +67,9 @@
     "Application.AdapterPatternDemo.executor": "Run",
     "Application.BridgePatternDemo.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.CommandPatternDemo.executor": "Run",
     "Application.MealBuilderDemo.executor": "Run",
-    "Application.com.jiang.designpatterns.chainPattern.Client.executor": "Run",
+    "Application.com.jiang.designpatterns.chainPattern.Client.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -96,7 +97,7 @@
       <recent name="com.jiang.designpatterns.factoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.jiang.designpatterns.chainPattern.Client">
+  <component name="RunManager" selected="Application.CommandPatternDemo">
     <configuration name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.adaptPattern.impl.AdapterPatternDemo" />
       <module name="DesignPatterns" />
@@ -136,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealBuilderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.builderPattern.MealBuilderDemo" />
+    <configuration name="CommandPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.commandPattern.CommandPatternDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.designpatterns.builderPattern.Packimpl.*" />
+          <option name="PATTERN" value="com.jiang.designpatterns.commandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommandPatternDemo" />
         <item itemvalue="Application.com.jiang.designpatterns.chainPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.BridgePatternDemo" />
         <item itemvalue="Application.AdapterPatternDemo" />
-        <item itemvalue="Application.MealBuilderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -194,11 +195,24 @@
       <workItem from="1716450488290" duration="2000" />
       <workItem from="1716450602366" duration="1492000" />
       <workItem from="1716470711832" duration="2000" />
-      <workItem from="1716514377364" duration="2916000" />
+      <workItem from="1716514377364" duration="4784000" />
+      <workItem from="1716554365151" duration="50000" />
+      <workItem from="1716560347274" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/AbstractLogger.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
