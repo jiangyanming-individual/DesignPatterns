@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="888d70ce-835f-4654-b8b0-6b9ec6c74b02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/CommandPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/impl/BuyStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/impl/SellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/impl/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/impl/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/impl/TerminalExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/impl/SellStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/commandPattern/impl/SellStock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,7 @@
     "Application.CommandPatternDemo.executor": "Run",
     "Application.MealBuilderDemo.executor": "Run",
     "Application.com.jiang.designpatterns.chainPattern.Client.executor": "Debug",
+    "Application.com.jiang.designpatterns.interpreterPattern.Client.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -97,20 +98,7 @@
       <recent name="com.jiang.designpatterns.factoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CommandPatternDemo">
-    <configuration name="AdapterPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.adaptPattern.impl.AdapterPatternDemo" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jiang.designpatterns.adaptPattern.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.jiang.designpatterns.interpreterPattern.Client">
     <configuration name="BridgePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.bridgePattern.BridgePatternDemo" />
       <module name="DesignPatterns" />
@@ -163,13 +151,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.jiang.designpatterns.interpreterPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.interpreterPattern.Client" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jiang.designpatterns.interpreterPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.jiang.designpatterns.interpreterPattern.Client" />
         <item itemvalue="Application.CommandPatternDemo" />
         <item itemvalue="Application.com.jiang.designpatterns.chainPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.BridgePatternDemo" />
-        <item itemvalue="Application.AdapterPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +198,8 @@
       <workItem from="1716470711832" duration="2000" />
       <workItem from="1716514377364" duration="4784000" />
       <workItem from="1716554365151" duration="50000" />
-      <workItem from="1716560347274" duration="1026000" />
+      <workItem from="1716560347274" duration="1080000" />
+      <workItem from="1716603044145" duration="1295000" />
     </task>
     <servers />
   </component>
@@ -211,6 +213,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/chainPattern/AbstractLogger.java</url>
           <line>19</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/Client.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/impl/TerminalExpression.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/interpreterPattern/impl/TerminalExpression.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
