@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="888d70ce-835f-4654-b8b0-6b9ec6c74b02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/StrategyPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/StrategyPattern/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/StrategyPattern/impl/AddStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/StrategyPattern/impl/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/StrategyPattern/impl/MultiplyStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/StrategyPattern/impl/SubstractStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/ProxyPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/ProxyPattern/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/ProxyPattern/impl/HighResolutionImages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiang/designpatterns/ProxyPattern/impl/ImageProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +68,7 @@
     "Application.CommandPatternDemo.executor": "Run",
     "Application.MealBuilderDemo.executor": "Run",
     "Application.com.jiang.designpatterns.IteratorPattern.Client.executor": "Run",
+    "Application.com.jiang.designpatterns.ProxyPattern.Client.executor": "Run",
     "Application.com.jiang.designpatterns.TemplatePattern.Client.executor": "Run",
     "Application.com.jiang.designpatterns.chainPattern.Client.executor": "Debug",
     "Application.com.jiang.designpatterns.interpreterPattern.Client.executor": "Debug",
@@ -99,7 +99,7 @@
       <recent name="com.jiang.designpatterns.factoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.com.jiang.designpatterns.ProxyPattern.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.StrategyPattern.Client" />
       <module name="DesignPatterns" />
@@ -113,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.commandPattern.CommandPatternDemo" />
+    <configuration name="com.jiang.designpatterns.IteratorPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.IteratorPattern.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.designpatterns.commandPattern.*" />
+          <option name="PATTERN" value="com.jiang.designpatterns.IteratorPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.jiang.designpatterns.IteratorPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.IteratorPattern.Client" />
+    <configuration name="com.jiang.designpatterns.ProxyPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jiang.designpatterns.ProxyPattern.Client" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jiang.designpatterns.IteratorPattern.*" />
+          <option name="PATTERN" value="com.jiang.designpatterns.ProxyPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.jiang.designpatterns.ProxyPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.jiang.designpatterns.TemplatePattern.Client" />
         <item itemvalue="Application.com.jiang.designpatterns.IteratorPattern.Client" />
         <item itemvalue="Application.com.jiang.designpatterns.interpreterPattern.Client" />
-        <item itemvalue="Application.CommandPatternDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +201,8 @@
       <workItem from="1716554365151" duration="50000" />
       <workItem from="1716560347274" duration="1080000" />
       <workItem from="1716603044145" duration="3509000" />
-      <workItem from="1716732288837" duration="5945000" />
+      <workItem from="1716732288837" duration="6124000" />
+      <workItem from="1716861202565" duration="947000" />
     </task>
     <servers />
   </component>
